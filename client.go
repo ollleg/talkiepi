@@ -70,6 +70,8 @@ func (b *Talkiepi) OpenStream() {
 		os.Exit(1)
 	} else {
 		b.Stream = stream
+		fmt.Fprintf(os.Stderr, "Audio started\n")
+                b.Stream.StartSource()
 	}
 }
 
