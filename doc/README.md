@@ -40,7 +40,9 @@ go get github.com/layeh/gopus
 go get github.com/ollleg/gumble/opus
 go get github.com/ollleg/talkiepi
 
-cp $GOPATH/src/github.com/ollleg/gumble/opus/opus.go $GOPATH/src/github.com/dchote/gumble/opus/opus.go
+cd ~/
+git clone https://github.com/ollleg/gumble
+cp ~/gumble/opus/opus.go $GOPATH/src/github.com/dchote/gumble/opus/opus.go
 
 cd $GOPATH/src/github.com/ollleg/talkiepi
 
