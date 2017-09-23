@@ -35,6 +35,7 @@ export GOBIN=/home/mumble/bin
 
 cd $GOPATH
 
+go get layeh.com/gopus
 go get github.com/layeh/gopus
 go get github.com/ollleg/talkiepi
 
