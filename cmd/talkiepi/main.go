@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/dchote/gumble/gumble"
-	_ "layeh.com/gumble/opus"
+	_ "github.com/dchote/gumble/opus"
 	"github.com/ollleg/talkiepi"
 )
 
